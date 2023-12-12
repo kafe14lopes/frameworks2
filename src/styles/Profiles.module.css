@@ -1,0 +1,31 @@
+.body2 {
+    background-color: #9864ff;
+}
+.espaco{
+    background-color: #9864ff;
+    min-height: 15vw;
+}
+.carteira {
+    width: 80%;
+    margin-top: 10vw;
+    margin-left: 8.5vw;
+    padding: 20px;
+    border-radius: 1vw;
+    background-color: #3a1de2;
+}
+
+.carteira p {
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.carteira .p1 {
+    font-size: 18px;
+    margin: 10px;
+    line-height: 2;
+}
+.carteira .p2 {
+    font-size: 18px;
+    color: black;
+    line-height: 2;
+}

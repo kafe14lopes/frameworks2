@@ -1,0 +1,46 @@
+.unica{
+  background-color: #242F49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 85vh;
+    width: 76%;
+    text-align: center;
+    border: 2px solid #7231c6;
+    border-top: 2px solid #242F49;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #384358;
+}
+
+.bnt{
+    padding: 20px;
+    border-radius: 400px;
+    background-color: #fdfdfd;
+    font-size: 40px;
+    margin-top: 10px;
+    border: none;
+    
+  }
+.bnt:hover{
+    background-color: #33267f;
+}
+.desc{
+    font-size: 1.5rem;
+}
+.fotoo{
+    width: 50%;
+    height: 40%;
+    margin-bottom: 80px;
+}
+
+.desc{
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
