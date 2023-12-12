@@ -32,10 +32,12 @@ export const getStaticProps = (async (context) => {
     }
 })
 export async function getStaticPaths() {
-    const paths = [];
-    for (let i = 0; i <= 99; i++) {
-        paths.push({ params: { id: String(i) } });
-    }
+    const res = await fetch('https://jsonplaceholder.typicode.com/users')
+    const repo = await res.json()
+    const users = await repo;
+    const paths = users.map((user, index) => {
+        return { params: { id: String(index) } };
+    });
     return {
         paths,
         fallback: false,
